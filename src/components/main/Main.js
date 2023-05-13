@@ -4,11 +4,10 @@ import Products from "./Products/Products";
 import "./Main.css";
 import Card from "../UI/Card";
 
-const Main = ({ items, saveCartProducts }) => {
+const Main = ({ items }) => {
   const [products, setProducts] = useState([]);
 
   const productAdd = (saveProduct) => {
-    saveCartProducts(saveProduct);
     const productInCart = products.find(
       (product) => product.id === saveProduct.id
     );

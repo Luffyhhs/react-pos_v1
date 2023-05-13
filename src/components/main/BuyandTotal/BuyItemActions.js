@@ -16,7 +16,9 @@ const BuyItemActions = ({
   return (
     <Card className="buy-item_actions">
       <input
-        type="text"
+        type="number"
+        min="1"
+        step="1"
         value={product.count}
         onChange={(e) => inputHandler(e)}
       />
