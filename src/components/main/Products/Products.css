@@ -1,0 +1,27 @@
+.list-items {
+  background-color: var(--white);
+  padding: 1.6rem 3.2rem;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+.list-item {
+  background-color: var(--light-blue);
+  padding: 1.6rem 3.2rem;
+  border-radius: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: var(--white);
+}
+.list-item:not(:last-child) {
+  margin-bottom: 1.6rem;
+}
+.list-item_detail {
+  display: flex;
+  align-items: center;
+  gap: 1.8rem;
+}
+.btn_cart {
+  vertical-align: middle;
+  font-size: 2.5rem;
+}

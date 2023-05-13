@@ -1,0 +1,18 @@
+.total-box {
+  display: flex;
+  align-items: center;
+  height: 20%;
+  justify-content: space-between;
+  border-top: 1rem solid var(--white);
+  background-color: var(--light-blue);
+  padding: 0 4.8rem;
+  font-size: 2rem;
+  color: var(--white);
+}
+
+.total {
+  display: flex;
+  align-items: center;
+  font-weight: 700;
+  gap: 5rem;
+}

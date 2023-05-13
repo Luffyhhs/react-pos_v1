@@ -1,0 +1,35 @@
+:root {
+  --black: #010309;
+  --gray: #d6d3d1;
+  --white: #dbeafe;
+  --light-blue: #2563eb;
+  --dark-blue: #1e3a8a;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: "Inter", sans-serif;
+  line-height: 1;
+  font-size: 2rem;
+  font-weight: 400;
+}
+.container {
+  margin: 0 auto;
+  max-width: 120rem;
+}
+.btn {
+  height: 3rem;
+  padding: 0 2.4rem;
+  border: none;
+  border-radius: 1rem;
+  font-size: 1.8rem;
+  cursor: pointer;
+  color: var(--dark-blue);
+}

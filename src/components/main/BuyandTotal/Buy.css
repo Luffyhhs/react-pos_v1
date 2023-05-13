@@ -1,0 +1,46 @@
+.buy-items {
+  padding: 1.2rem 2.4rem;
+  height: 60%;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.buy-item {
+  background-color: var(--dark-blue);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--white);
+  padding: 1.6rem 3.2rem;
+  border-radius: 1rem;
+}
+.buy-item:not(:last-child) {
+  margin-bottom: 1.2rem;
+}
+
+.buy-item_detail {
+  display: flex;
+  align-items: center;
+  gap: 1.8rem;
+}
+
+.buy-item_actions {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+}
+.buy-item_actions input {
+  height: 3rem;
+  width: 3rem;
+  text-align: center;
+  border-radius: 1rem;
+}
+.buy-item_actions input:focus {
+  outline: none;
+}
+.buy-more,
+.buy-less,
+.bought-remove {
+  padding: 0 1.6rem;
+  font-size: 2rem;
+}
